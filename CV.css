@@ -1,0 +1,91 @@
+body {
+    background: #f1f1f1;
+  
+    font-size: 17px;
+    font-weight: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    margin: 9px 0px;
+  }
+  
+  p {
+    margin: 0px;
+  }
+  
+  ul {
+    padding: 0px 0px 0px 13px;
+    margin: 9px 0px;
+  }
+  
+  a {
+    color: rgb(142, 109, 242);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(125, 230, 68);
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .cvphoto {
+    width: 250px;
+    object-fit: cover;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.25);
+  }
+  
+  .information {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .Me {
+    position: relative;
+    color: white;
+    flex: auto;
+    padding: 0px 33px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .contacts {
+    /* position: absolute;
+    display: flex; */
+    flex-flow: wrap;
+    /* bottom: 13px; */
+    border: 5px solid black;
+  }
+
+  .phone {
+    padding-bottom: 13px;
+  }
+
+  .telegram {
+    padding-bottom: 13px;
+  }
+
+  .email {
+    padding-bottom: 13px;
+  }
+  
+  .contacts div {
+    margin-right: 13px;
+  }
+  
+  .aboutme {
+    margin: 0;
+  }
+  
+  .skills li {
+    margin-bottom: 7px;
+  }
+  
+  .certificates li {
+    margin-bottom: 9px;
+  }
+  
+  .languages li {
+    margin-bottom: 7px;
+  }
